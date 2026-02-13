@@ -1,34 +1,38 @@
-# acute-deterioration-risk-model
-  Clinical machine learning project exploring early warning prediction in acute care.
+# Notebooks
 
+This folder contains the Jupyter notebooks used to develop the **Acute Deterioration Risk Prediction (NEWS2-style)** project.
 
-## Planned steps:
-  - Dataset preparation
-  - Baseline model training
-  - Explainability and clinical interpretation
-  - Deployment considerations
-
-
-## Clinical Motivation
-  Early recognition of deterioration is critical in Acute Medicine to support timely escalation, reduce ICU admissions, and improve patient safety.
-
-## Project Goals
-- Build baseline predictive models for deterioration risk
-- Evaluate performance using clinically meaningful metrics (AUC, sensitivity)
-- Explore explainability and limitations relevant to real-world deployment
-- Consider governance, safety, and workflow integration challenges
-
-## Status
-  🚧 In progress (February 2026)
-
-## Planned Steps
-- Dataset preparation (MIMIC-style vital signs dataset)
-- Baseline model training (logistic regression, random forest)
-- Explainability and clinical interpretation (feature importance / SHAP)
-- Deployment considerations (false negatives, monitoring, safety case thinking)
-
-## Next Update
-Notebook 01: Data loading + initial exploration (Week 1–2)
+The notebooks are organised in a step-by-step workflow, from initial dataset exploration to baseline modelling and evaluation.
 
 ---
-*Author: Dr Aladdin Alswaifi — Acute Medicine & Clinical AI Portfolio*
+
+## Notebook Roadmap
+
+### 01_data_loading.ipynb
+- Loads the selected vital signs dataset  
+- Performs initial inspection (`head`, `info`, missing values)  
+- Defines the target outcome for deterioration prediction
+
+### 02_preprocessing.ipynb *(planned)*
+- Data cleaning and feature preparation  
+- Handling missing data  
+- Train/test split
+
+### 03_baseline_model.ipynb *(planned)*
+- Baseline model training (logistic regression, random forest)  
+- Performance evaluation using clinically meaningful metrics
+
+### 04_explainability.ipynb *(planned)*
+- Feature importance and model interpretability  
+- Discussion of limitations, bias, and safety considerations
+
+---
+
+## Notes
+
+This project is part of an independent **Clinical AI & Digital Health portfolio** focused on safe and responsible adoption of AI tools in acute care workflows.
+
+Status: 🚧 In progress (February–April 2026)
+
+---
+*Author: Dr Aladdin Alswaifi*
