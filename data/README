@@ -1,0 +1,19 @@
+## Dataset Source
+Hospital Clinical Deterioration Dataset from Kaggle (Feb 2026).
+
+## About Dataset
+Overview
+  This dataset contains a simulated hospital cohort designed for building and evaluating early warning models for clinical deterioration.
+  10,000 realistic hospital admissions in a high-fidelity 72-hour monitoring cohor
+
+For each hospital admission, you get up to 72 consecutive hours of data from the time the patient arrives, including:
+  Hourly vital signs (heart rate, blood pressure, respiratory rate, SpO₂, temperature, oxygen support, mobility score, nurse alerts)
+  Hourly lab results (WBC, lactate, creatinine, CRP, hemoglobin, sepsis risk score)
+  Patient-level information (age, gender, comorbidity index, admission type, baseline risk, length of stay)
+  Several deterioration outcomes, with a main focus on “deterioration in the next 12 hours”
+
+## Contents
+Includes physiological observations such as heart rate, respiratory rate, blood pressure, SpO2, and temperature.
+
+## Next Step
+Load into Pandas and define a proxy deterioration outcome.
